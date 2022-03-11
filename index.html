@@ -10,11 +10,10 @@
     
     <!-- Control absoluto de este DIV -->
     <div id="myApp">
-        <h3>{{quote}}</h3>
-        <blockquote> -{{author}} </blockquote>
-        <button v-on:click="changeQuote">
-            changeQuote
-        </button>
+        <h1>Batman quotes</h1>
+        <ul>
+            <li v-for="quote in quotes">author</li>
+        </ul>
     </div>
     
     
