@@ -7,7 +7,6 @@ const quotes = [
     { quote: 'Yes, father. I shall become a bat.', author: 'Bruce Wayne/Batman, Batman: Year One' },
 ]
 
-console.log(quotes);
 
 const app = Vue.createApp({
 
